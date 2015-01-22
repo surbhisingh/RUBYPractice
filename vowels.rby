@@ -1,0 +1,18 @@
+count=0
+puts("enter a string")
+aa = gets.chomp
+puts aa
+f=0
+l=aa.size
+puts l
+for f in f..l
+ if aa[f]=='a'or  aa[f]=='e' or aa[f]=='i' or aa[f]=='o' or aa[f]=='u'
+ ++count
+  ++f
+
+ end
+
+end
+puts("no of vowels= #{count}")
+
+#puts aa.scan(/[aeiou]/).count { |x| puts x }
